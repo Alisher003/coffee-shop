@@ -1,3 +1,15 @@
-.sitenav {
+.navbar {
 
+
+    &__link {
+        margin: 0 10px;
+        font-style: 15px;
+        color: #fff;
+    }
+
+    &__link:hover {
+        color: var(--main-color);
+        border-bottom: .1rem solid var(--main-color);
+        padding-bottom: .4rem;
+    }
 }

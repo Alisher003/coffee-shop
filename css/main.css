@@ -444,4 +444,8 @@ body {
 .icons__box:hover {
   color: var(--main-color);
 }
+
+.icons #menu-btn {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */

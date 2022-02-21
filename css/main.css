@@ -437,7 +437,11 @@ body {
 .icons__box {
   color: #fff;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-left: 1rem;
+}
+
+.icons__box:hover {
+  color: var(--main-color);
 }
 /*# sourceMappingURL=main.css.map */

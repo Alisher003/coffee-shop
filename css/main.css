@@ -488,6 +488,28 @@ body {
   color: var(--main-color);
 }
 
+.cart__items__container {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  height: calc(70vh - 9.5rem);
+  width: 35rem;
+  background: #fff;
+  padding: 0 1rem;
+}
+
+.cart__item {
+  position: relative;
+  margin: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
 .footer {
   background: var(--black);
   text-align: center;

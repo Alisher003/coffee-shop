@@ -31,3 +31,7 @@
         color: var(--main-color);
     }
 }
+
+.search-form.active {
+    transform: scaleY(1);
+}

@@ -498,6 +498,11 @@ body {
   color: var(--main-color);
 }
 
+.search-form.active {
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+}
+
 .cart__items__container {
   position: absolute;
   top: 100%;
@@ -506,6 +511,10 @@ body {
   width: 20rem;
   background: #fff;
   padding: 0 1rem;
+}
+
+.cart__items__container.active {
+  right: 0;
 }
 
 .cart__item {
@@ -562,7 +571,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 760px) {
   #menu-btn {
     display: inline-block;
   }
@@ -583,6 +592,10 @@ body {
     margin: 1.5rem;
     padding: .5rem;
     font-size: 2rem;
+  }
+  .search-form {
+    width: 60%;
+    right: 1rem;
   }
 }
 

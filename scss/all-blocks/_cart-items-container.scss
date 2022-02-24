@@ -8,6 +8,10 @@
     padding: 0 1rem;
 }
 
+.cart__items__container.active {
+    right: 0;
+}
+
 .cart__item {
     position: relative;
     margin: 5px 0;
@@ -101,7 +105,7 @@
 }
 
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 760px) {
 
 
     #menu-btn {
@@ -127,6 +131,11 @@
             margin: 1.5rem;
             padding: .5rem;
             font-size: 2rem;
+        }
+
+        .search-form {
+            width: 60%;
+            right: 1rem;
         }
 
 }
